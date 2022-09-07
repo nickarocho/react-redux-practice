@@ -13,7 +13,7 @@ module.exports = {
     port: 3000,
     watchContentBase: true,
   },
-  // Rules of how webpack will take our files, complie & bundle them for the browser
+  // Rules of how webpack will take our files, complile & bundle them for the browser
   module: {
     rules: [
       {
