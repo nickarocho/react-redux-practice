@@ -9,3 +9,9 @@ export const removeTodo = (text) => ({
   type: REMOVE_TODO,
   payload: { text },
 });
+
+export const TOGGLE_TODO_COMPLETE = "TOGGLE_TODO_COMPLETE";
+export const updateTodoComplete = (text, isCompleted) => ({
+  type: TOGGLE_TODO_COMPLETE,
+  payload: { text, isCompleted },
+});
